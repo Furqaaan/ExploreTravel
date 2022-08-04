@@ -1,0 +1,22 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.app .primary-btn a {
+  background-color: #FB8F1D;
+  color: #FFF;
+  border: 1px solid #FB8F1D;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app .secondary-btn a {
+  background-color: #FFF;
+  color: #FB8F1D;
+  border: 1px solid #FB8F1D;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=App.css.map */

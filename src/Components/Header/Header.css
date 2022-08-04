@@ -1,0 +1,38 @@
+.header-container {
+  margin-top: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-container ul {
+  list-style-type: none;
+  display: flex;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+  align-items: center;
+}
+.header-container ul a {
+  font-weight: 500;
+  font-size: 15px;
+  color: #B8BECD;
+  font-family: "Inter", sans-serif;
+}
+.header-container ul .active a {
+  color: #202336;
+}
+.header-container ul .secondary-btn a, .header-container ul .primary-btn a {
+  width: 132px;
+  height: 44px;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .header-container {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .header-container ul {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}/*# sourceMappingURL=Header.css.map */

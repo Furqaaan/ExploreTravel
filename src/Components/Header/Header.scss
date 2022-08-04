@@ -1,0 +1,46 @@
+.header-container {
+
+	margin-top: 43px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	ul {
+
+		list-style-type: none;
+		display: flex;
+		column-gap: 35px;
+		align-items: center;
+
+		a {
+			font-weight: 500;
+			font-size: 15px;
+			color: #B8BECD;
+			font-family: "Inter", sans-serif;
+		}
+		
+		.active a{
+			color: #202336;
+		}
+
+		.secondary-btn a, .primary-btn a{
+			width: 132px;
+			height: 44px;
+			text-align: center;
+		}
+
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+	.header-container {
+		flex-direction: column; 
+		row-gap: 20px;
+		
+		ul {
+			flex-direction: column;
+			row-gap: 20px;
+		}
+	}
+}
