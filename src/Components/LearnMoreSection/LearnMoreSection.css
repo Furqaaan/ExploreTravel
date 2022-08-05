@@ -1,0 +1,46 @@
+.learn-more-section {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.learn-more-section .learn-more-image {
+  width: 659px;
+  height: 534px;
+}
+.learn-more-section .learn-more-content {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.learn-more-section .learn-more-content .learn-more-title h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+}
+.learn-more-section .learn-more-content .learn-more-description {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7D7987;
+}
+.learn-more-section .learn-more-content .learn-more-btn {
+  background: #FB8F1D;
+  border-radius: 8px;
+  width: 164px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learn-more-section .learn-more-content .learn-more-btn a {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 60px;
+}/*# sourceMappingURL=LearnMoreSection.css.map */

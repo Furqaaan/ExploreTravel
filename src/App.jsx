@@ -1,9 +1,10 @@
 import './App.css'
+import LearnMoreSection from './Components/LearnMoreSection/LearnMoreSection';
 
 function App() {
   return (
     <div className="app">
-		<h1>ExploreTravel</h1>
+		<LearnMoreSection/>
     </div>
   )
 }
