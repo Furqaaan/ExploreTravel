@@ -1,9 +1,10 @@
 import './App.css'
+import Testimonials from './Components/Testimonials/Testimonials'
 
 function App() {
   return (
     <div className="app">
-		<h1>ExploreTravel</h1>
+		<Testimonials/>
     </div>
   )
 }
