@@ -18,7 +18,7 @@ function Testimonials() {
 				<div className="testimonials-ratings">
 					{ratings}
 				</div>
-				<div className="testionials-description">
+				<div className="testimonials-description">
 					<p>“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”</p>
 				</div>
 				<div className="testimonials-author">
