@@ -1,0 +1,30 @@
+.destination-item {
+  width: 261px;
+  height: 337px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  position: relative;
+}
+.destination-item .destination-info {
+  width: 120px;
+  height: 56px;
+  background: white;
+  position: absolute;
+  bottom: 0;
+  border-radius: 0px 6px 0px 0px;
+  font-family: "Inter", sans-serif;
+}
+.destination-item .destination-info .destination-place {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #042521;
+  padding-top: 10px;
+}
+.destination-item .destination-info .destination-country {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #80918E;
+}/*# sourceMappingURL=Destinations.css.map */

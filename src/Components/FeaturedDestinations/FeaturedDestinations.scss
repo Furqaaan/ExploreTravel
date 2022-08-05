@@ -1,0 +1,34 @@
+.featured-section {
+
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+
+	.featured-section-header {
+		display: flex;
+		justify-content: space-between;
+
+		h3 {
+			font-family: 'Playfair Display';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 36px;
+			line-height: 50px;
+		}
+
+		a {
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 600;
+			font-size: 17px;
+			line-height: 60px;
+			color: #FB8F1D;
+		}
+	}
+
+	.featured-section-gallery {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}

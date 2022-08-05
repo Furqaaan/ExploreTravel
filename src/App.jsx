@@ -1,9 +1,10 @@
 import './App.css'
+import FeaturedDestinations from './Components/FeaturedDestinations/FeaturedDestinations'
 
 function App() {
   return (
     <div className="app">
-		<h1>ExploreTravel</h1>
+		<FeaturedDestinations/>
     </div>
   )
 }
