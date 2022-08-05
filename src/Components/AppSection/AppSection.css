@@ -1,0 +1,46 @@
+.app-section {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.app-section .app-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.app-section .app-section-content .app-section-title h3 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+}
+.app-section .app-section-content .app-section-description {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7D7987;
+}
+.app-section .app-section-content .app-section-btn {
+  background: #FB8F1D;
+  border-radius: 8px;
+  width: 164px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app-section .app-section-content .app-section-btn a {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 60px;
+}
+.app-section .app-section-image {
+  width: 599px;
+  height: 542px;
+}/*# sourceMappingURL=AppSection.css.map */
