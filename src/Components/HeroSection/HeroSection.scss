@@ -84,3 +84,21 @@
 	width: 687px;
 	height: 657px;
 }
+
+@media screen and (max-width: 700px) {
+	.hero-section {
+		flex-direction: column;
+	}
+
+	.hero-image {
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		img {
+			width: 387px;
+			height: 357px;
+		}
+	}
+}
