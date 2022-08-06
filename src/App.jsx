@@ -1,9 +1,10 @@
 import './App.css'
+import Trending from './Components/Trending/Trending'
 
 function App() {
   return (
     <div className="app">
-		<h1>ExploreTravel</h1>
+		<Trending/>
     </div>
   )
 }

@@ -1,0 +1,40 @@
+.trending-story-item {
+	display: flex;
+	flex-direction: column;
+	width: 266px;
+	height: 446px;
+	gap: 13px;
+
+	img {
+		width: 266px;
+		height: 240px;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+	}
+
+	h4 {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 19px;
+		line-height: 30px;
+	}
+
+	p {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 26px;
+		color: #7D7987;
+	}
+
+	a {
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 15px;
+		line-height: 28px;
+		color: #FB8F1D;
+	}
+}
