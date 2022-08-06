@@ -43,4 +43,22 @@
   font-size: 18px;
   line-height: 38px;
   color: #848484;
+}
+
+@media screen and (max-width: 700px) {
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .footer-container .footer-content {
+    align-items: center;
+  }
+  .footer-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=Footer.css.map */
