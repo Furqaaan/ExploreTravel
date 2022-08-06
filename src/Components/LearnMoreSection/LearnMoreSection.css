@@ -43,4 +43,19 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 60px;
+}
+
+@media screen and (max-width: 700px) {
+  .learn-more-section {
+    flex-direction: column;
+  }
+  .learn-more-section .learn-more-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .learn-more-section .learn-more-image img {
+    width: 559px;
+    height: 434px;
+  }
 }/*# sourceMappingURL=LearnMoreSection.css.map */

@@ -14,15 +14,15 @@
 		flex-direction: column;
 		gap: 30px;
 
-		.learn-more-title h2{
-				font-family: 'Playfair Display',sans-serif;
-				font-weight: 700;
-				font-size: 36px;
-				line-height: 50px;
+		.learn-more-title h2 {
+			font-family: 'Playfair Display', sans-serif;
+			font-weight: 700;
+			font-size: 36px;
+			line-height: 50px;
 		}
 
 		.learn-more-description {
-			font-family: 'Mulish',sans-serif;
+			font-family: 'Mulish', sans-serif;
 			font-style: normal;
 			font-weight: 300;
 			font-size: 17px;
@@ -38,7 +38,7 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			
+
 			a {
 				color: white;
 				font-family: 'Inter', sans-serif;
@@ -48,7 +48,24 @@
 				line-height: 60px;
 			}
 		}
-		
-		
+
+
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.learn-more-section {
+		flex-direction: column;
+
+		.learn-more-image {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			img {
+					width: 559px;
+					height: 434px;
+			}
+		}
 	}
 }
