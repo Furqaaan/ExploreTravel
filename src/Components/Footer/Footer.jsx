@@ -1,5 +1,5 @@
 import "./Footer.css"
-import FooterLinks from "./FooterLinks/FooterLinks";
+import FooterLinks from "../FooterLinks/FooterLinks";
 
 function Footer() {
 
