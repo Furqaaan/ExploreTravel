@@ -1,6 +1,6 @@
 import './App.css'
-import Footer from './Components/Footer/Footer'
-import FooterSocial from './Components/FooterSocial/FooterSocial'
+import Footer from './components/Footer/Footer'
+import FooterSocial from './components/FooterSocial/FooterSocial'
 
 function App() {
   return (
