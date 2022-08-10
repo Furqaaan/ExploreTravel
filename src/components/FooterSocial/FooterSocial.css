@@ -1,0 +1,9 @@
+.footer-social-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  border-top: 1px solid #C4C4C4;
+  padding: 30px;
+  margin-top: 80px;
+}/*# sourceMappingURL=FooterSocial.css.map */
