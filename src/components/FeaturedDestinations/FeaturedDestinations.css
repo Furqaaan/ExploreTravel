@@ -7,14 +7,14 @@
   display: flex;
   justify-content: space-between;
 }
-.featured-section .featured-section-header h3 {
+.featured-section .featured-section-header .featured-section-header-content {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 50px;
 }
-.featured-section .featured-section-header a {
+.featured-section .featured-section-header .featured-section-header-link {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;

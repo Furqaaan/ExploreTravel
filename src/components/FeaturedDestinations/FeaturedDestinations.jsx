@@ -33,8 +33,8 @@ function FeaturedDestinations() {
   return (
 	<div className="featured-section">
 		<div className="featured-section-header">
-			<h3>Featured destinatons</h3>
-			<a href="#">View all &gt;</a>
+			<h3 className="featured-section-header-content">Featured destinatons</h3>
+			<a className="featured-section-header-link" href="#">View all &gt;</a>
 		</div>
 		<div className="featured-section-gallery">
 			{featuredDestinations}

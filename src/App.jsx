@@ -1,5 +1,5 @@
 import './App.css'
-import FeaturedDestinations from './Components/FeaturedDestinations/FeaturedDestinations'
+import FeaturedDestinations from './components/FeaturedDestinations/FeaturedDestinations'
 
 function App() {
   return (
