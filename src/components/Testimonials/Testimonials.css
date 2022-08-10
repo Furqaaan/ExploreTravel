@@ -3,8 +3,8 @@
   flex-direction: column;
   gap: 60px;
 }
-.testimonials-container h3 {
-  font-family: "Playfair Display";
+.testimonials-container .testimonials-heading {
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -23,13 +23,13 @@
 .testimonials-container .testimonials-wrapper .testimonials-content .testimonials-ratings {
   display: flex;
   gap: 15px;
-  width: 25.12px;
-  height: 23.95px;
+  width: 25px;
+  height: 20px;
 }
 .testimonials-container .testimonials-wrapper .testimonials-content .testimonials-description {
   width: 450px;
   height: 144px;
-  font-family: "Mulish";
+  font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -50,9 +50,9 @@
   line-height: 48px;
   color: rgba(0, 0, 0, 0.85);
 }
-.testimonials-container .testimonials-wrapper .testimonials-author-image img {
-  width: 384px;
-  height: 491px;
+.testimonials-container .testimonials-wrapper .testimonials-author-image .testimonials-author-image-item {
+  width: 380px;
+  height: 490px;
   border-radius: 14px;
 }
 

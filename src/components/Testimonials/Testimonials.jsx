@@ -12,7 +12,7 @@ function Testimonials() {
 
 	return (
 	<div className="testimonials-container">
-		<h3>Testimonials</h3>
+		<h3 className="testimonials-heading">Testimonials</h3>
 		<div className="testimonials-wrapper">
 			<div className="testimonials-content">
 				<div className="testimonials-ratings">
@@ -27,7 +27,7 @@ function Testimonials() {
 				</div>
 			</div>
 			<div className="testimonials-author-image">
-				<img src="images/testimonials.png" alt="testimonials author"/>
+				<img className="testimonials-author-image-item" src="images/testimonials.png" alt="testimonials author"/>
 			</div>
 		</div>
 	</div>
