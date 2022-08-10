@@ -7,14 +7,14 @@
   display: flex;
   justify-content: space-between;
 }
-.trending-container .trending-section-header h3 {
+.trending-container .trending-section-header .trending-section-heading {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 50px;
 }
-.trending-container .trending-section-header a {
+.trending-container .trending-section-header .trending-container-link {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;

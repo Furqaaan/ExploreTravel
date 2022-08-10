@@ -33,8 +33,8 @@ function Trending() {
 	return (
 	<div className="trending-container">
 		<div className="trending-section-header">
-			<h3>Trending stories</h3>
-			<a href="#">View all &gt;</a>
+			<h3 className="trending-section-heading">Trending stories</h3>
+			<a className="trending-container-link" href="#">View all &gt;</a>
 		</div>
 		<div className="trending-section-gallery">
 			{trendingSection}
