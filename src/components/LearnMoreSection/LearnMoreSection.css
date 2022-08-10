@@ -4,8 +4,8 @@
   gap: 100px;
 }
 .learn-more-section .learn-more-image {
-  width: 659px;
-  height: 534px;
+  width: 660px;
+  height: 540px;
 }
 .learn-more-section .learn-more-content {
   width: 540px;
@@ -13,7 +13,7 @@
   flex-direction: column;
   gap: 30px;
 }
-.learn-more-section .learn-more-content .learn-more-title h2 {
+.learn-more-section .learn-more-content .learn-more-title .learn-more-title-content {
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -30,13 +30,13 @@
 .learn-more-section .learn-more-content .learn-more-btn {
   background: #FB8F1D;
   border-radius: 8px;
-  width: 164px;
+  width: 160px;
   height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.learn-more-section .learn-more-content .learn-more-btn a {
+.learn-more-section .learn-more-content .learn-more-btn .learn-more-btn-link {
   color: white;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -54,8 +54,8 @@
     justify-content: center;
     align-items: center;
   }
-  .learn-more-section .learn-more-image img {
-    width: 559px;
-    height: 434px;
+  .learn-more-section .learn-more-image .learn-more-image-item {
+    width: 560px;
+    height: 430px;
   }
 }/*# sourceMappingURL=LearnMoreSection.css.map */

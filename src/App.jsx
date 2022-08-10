@@ -1,5 +1,5 @@
 import './App.css'
-import LearnMoreSection from './Components/LearnMoreSection/LearnMoreSection';
+import LearnMoreSection from './components/LearnMoreSection/LearnMoreSection';
 
 function App() {
   return (
