@@ -1,9 +1,11 @@
 import './App.css'
+import AppSection from './Components/AppSection/AppSection'
+
 
 function App() {
   return (
     <div className="app">
-		<h1>ExploreTravel</h1>
+		<AppSection/>
     </div>
   )
 }
