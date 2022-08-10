@@ -8,7 +8,7 @@
   flex-direction: column;
   gap: 40px;
 }
-.app-section .app-section-content .app-section-title h3 {
+.app-section .app-section-content .app-section-title .app-section-title-content {
   font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -16,7 +16,7 @@
   line-height: 50px;
 }
 .app-section .app-section-content .app-section-description {
-  font-family: "Mulish";
+  font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 17px;
@@ -26,23 +26,23 @@
 .app-section .app-section-content .app-section-btn {
   background: #FB8F1D;
   border-radius: 8px;
-  width: 164px;
-  height: 48px;
+  width: 160px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.app-section .app-section-content .app-section-btn a {
+.app-section .app-section-content .app-section-btn .app-section-btn-link {
   color: white;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 60px;
 }
 .app-section .app-section-image {
-  width: 599px;
-  height: 542px;
+  width: 600px;
+  height: 540px;
 }
 
 @media screen and (max-width: 700px) {
@@ -51,8 +51,8 @@
     padding: 10px;
   }
   .app-section .app-section-image {
-    width: 399px;
-    height: 342px;
+    width: 400px;
+    height: 340px;
     display: flex;
     align-items: center;
     justify-content: center;
