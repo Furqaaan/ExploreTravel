@@ -1,29 +1,29 @@
 .header-container {
 
-	margin-top: 43px;
+	height: 100px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 
-	ul {
+	.header-container-list {
 
 		list-style-type: none;
 		display: flex;
 		column-gap: 35px;
 		align-items: center;
 
-		a {
+		.header-container-links {
 			font-weight: 500;
 			font-size: 15px;
 			color: #B8BECD;
 			font-family: "Inter", sans-serif;
 		}
 		
-		.active a{
+		.active .header-container-links{
 			color: #202336;
 		}
 
-		.secondary-btn a, .primary-btn a{
+		.secondary-btn .header-container-links, .primary-btn .header-container-links{
 			width: 132px;
 			height: 44px;
 			text-align: center;
@@ -38,7 +38,7 @@
 		flex-direction: column; 
 		row-gap: 20px;
 		
-		ul {
+		.header-container-list {
 			flex-direction: column;
 			row-gap: 20px;
 		}
