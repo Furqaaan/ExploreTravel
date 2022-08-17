@@ -24,7 +24,7 @@
   line-height: 80px;
 }
 .hero-section .hero-content .rectangle-bar {
-  width: 32px;
+  width: 30px;
   height: 2px;
   background: #202336;
   border-radius: 4px;
@@ -73,8 +73,7 @@
 }
 
 .hero-image {
-  width: 680px;
-  height: 650px;
+  width: 100%;
 }
 
 @media screen and (max-width: 700px) {
