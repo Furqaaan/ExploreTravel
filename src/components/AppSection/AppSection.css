@@ -41,8 +41,7 @@
   line-height: 60px;
 }
 .app-section .app-section-image {
-  width: 600px;
-  height: 540px;
+  width: 100%;
 }
 
 @media screen and (max-width: 700px) {
@@ -51,8 +50,7 @@
     padding: 10px;
   }
   .app-section .app-section-image {
-    width: 400px;
-    height: 340px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
