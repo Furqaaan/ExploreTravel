@@ -1,34 +1,30 @@
 .trending-story-item {
   display: flex;
   flex-direction: column;
-  width: 266px;
-  height: 446px;
+  width: 260px;
+  height: 440px;
   gap: 13px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
 }
-.trending-story-item img {
-  width: 266px;
+.trending-story-item .trending-story-image {
+  width: 260px;
   height: 240px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
-.trending-story-item h4 {
-  font-family: "Inter";
-  font-style: normal;
+.trending-story-item .trending-story-title {
   font-weight: 700;
   font-size: 19px;
   line-height: 30px;
 }
-.trending-story-item p {
-  font-family: "Inter";
-  font-style: normal;
+.trending-story-item .trending-story-content {
   font-weight: 400;
   font-size: 15px;
   line-height: 26px;
   color: #7D7987;
 }
-.trending-story-item a {
-  font-family: "Inter";
-  font-style: normal;
+.trending-story-item .trending-story-read-more {
   font-weight: 600;
   font-size: 15px;
   line-height: 28px;
