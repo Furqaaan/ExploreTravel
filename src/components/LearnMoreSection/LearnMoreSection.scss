@@ -4,12 +4,10 @@
 	gap: 100px;
 
 	.learn-more-image {
-		width: 660px;
-		height: 540px;
+		width: 100%;
 	}
 
 	.learn-more-content {
-		width: 540px;
 		display: flex;
 		flex-direction: column;
 		gap: 30px;
@@ -63,8 +61,7 @@
 			align-items: center;
 
 			.learn-more-image-item {
-				width: 560px;
-				height: 430px;
+				width: 100%;
 			}
 		}
 	}

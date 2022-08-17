@@ -4,11 +4,9 @@
   gap: 100px;
 }
 .learn-more-section .learn-more-image {
-  width: 660px;
-  height: 540px;
+  width: 100%;
 }
 .learn-more-section .learn-more-content {
-  width: 540px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -55,7 +53,6 @@
     align-items: center;
   }
   .learn-more-section .learn-more-image .learn-more-image-item {
-    width: 560px;
-    height: 430px;
+    width: 100%;
   }
 }/*# sourceMappingURL=LearnMoreSection.css.map */
