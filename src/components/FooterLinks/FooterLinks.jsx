@@ -2,7 +2,7 @@
 function FooterLinks(props) {
 	return (
 		<li className="footer-link-item">
-			<a href="#">{props.link}</a>
+			<a className="footer-item-link" href="#">{props.link}</a>
 		</li>
 	)
 }

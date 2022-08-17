@@ -3,14 +3,14 @@
   justify-content: space-between;
 }
 .footer-container .footer-content {
-  width: 391px;
+  width: 390px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 30px;
+  gap: 33px;
 }
 .footer-container .footer-content .description {
-  font-family: "Mulish";
+  font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -18,26 +18,28 @@
   color: #848484;
 }
 .footer-container .footer-content .copyright {
-  font-family: "Mulish";
+  font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 17px;
   line-height: 28px;
   color: #848484;
-  margin-top: 30px;
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
 }
-.footer-container ul {
+.footer-container .destination-links-list {
   list-style-type: none;
 }
-.footer-container h4 {
-  font-family: "Mulish";
+.footer-container .destination-links-title {
+  font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 19px;
   line-height: 60px;
 }
-.footer-container a {
-  font-family: "Mulish";
+.footer-container .footer-item-link {
+  font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -55,7 +57,7 @@
   .footer-container .footer-content {
     align-items: center;
   }
-  .footer-container ul {
+  .footer-container .destination-links-list {
     display: flex;
     flex-direction: column;
     justify-content: center;

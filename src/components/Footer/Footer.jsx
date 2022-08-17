@@ -19,20 +19,20 @@ function Footer() {
 				<p className="copyright">©2020 Thousand Sunny. All rights reserved</p>
 			</div>
 			<div className="destination-links">
-				<ul>
-					<h4>Destinations</h4>
+				<ul className='destination-links-list'>
+					<h4 className='destination-links-title'>Destinations</h4>
 					{destinationLinks}
 				</ul>
 			</div>
 			<div className="shop-links">
-				<ul>
-					<h4>Shop</h4>
+				<ul className='destination-links-list'>
+					<h4 className='destination-links-title'>Shop</h4>
 					{shopLinks}
 				</ul>
 			</div>
 			<div className="interests-links">
-				<ul>
-					<h4>Interests</h4>
+				<ul className='destination-links-list'>
+					<h4 className='destination-links-title'>Interests</h4>
 					{interestsLinks}
 				</ul>
 			</div>
