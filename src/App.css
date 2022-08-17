@@ -2,7 +2,7 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-.app .primary-btn a {
+.app .primary-btn .btn-link {
   background-color: #FB8F1D;
   color: #FFF;
   border: 1px solid #FB8F1D;
@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
 }
-.app .secondary-btn a {
+.app .secondary-btn .btn-link {
   background-color: #FFF;
   color: #FB8F1D;
   border: 1px solid #FB8F1D;

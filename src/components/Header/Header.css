@@ -1,26 +1,26 @@
 .header-container {
-  margin-top: 43px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.header-container ul {
+.header-container .header-container-list {
   list-style-type: none;
   display: flex;
   -moz-column-gap: 35px;
        column-gap: 35px;
   align-items: center;
 }
-.header-container ul a {
+.header-container .header-container-list .header-container-links {
   font-weight: 500;
   font-size: 15px;
   color: #B8BECD;
   font-family: "Inter", sans-serif;
 }
-.header-container ul .active a {
+.header-container .header-container-list .active .header-container-links {
   color: #202336;
 }
-.header-container ul .secondary-btn a, .header-container ul .primary-btn a {
+.header-container .header-container-list .secondary-btn .header-container-links, .header-container .header-container-list .primary-btn .header-container-links {
   width: 132px;
   height: 44px;
   text-align: center;
@@ -31,7 +31,7 @@
     flex-direction: column;
     row-gap: 20px;
   }
-  .header-container ul {
+  .header-container .header-container-list {
     flex-direction: column;
     row-gap: 20px;
   }
