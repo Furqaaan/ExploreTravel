@@ -1,0 +1,35 @@
+.trending-container {
+
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+
+	.trending-section-header {
+		display: flex;
+		justify-content: space-between;
+
+		.trending-section-heading {
+			font-family: 'Playfair Display';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 36px;
+			line-height: 50px;
+		}
+
+		.trending-container-link {
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 600;
+			font-size: 17px;
+			line-height: 60px;
+			color: #FB8F1D;
+		}
+
+	}
+
+	.trending-section-gallery {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
