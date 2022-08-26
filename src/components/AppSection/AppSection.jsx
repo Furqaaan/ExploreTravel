@@ -1,4 +1,4 @@
-import "./AppSection.css";
+import "./AppSection.scss";
 
 function AppSection() {
   return (
