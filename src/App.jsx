@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import Testimonials from './components/Testimonials/Testimonials'
 
 function App() {
