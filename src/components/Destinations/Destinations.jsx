@@ -1,4 +1,4 @@
-import "./Destinations.css";
+import "./Destinations.scss";
 
 function Destinations(props) {
 

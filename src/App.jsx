@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import FeaturedDestinations from './components/FeaturedDestinations/FeaturedDestinations'
 
 function App() {

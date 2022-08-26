@@ -1,4 +1,4 @@
-import "./FeaturedDestinations.css"
+import "./FeaturedDestinations.scss"
 import Destinations from '../Destinations/Destinations';
 
 function FeaturedDestinations() {
