@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import Trending from './components/Trending/Trending'
 
 function App() {

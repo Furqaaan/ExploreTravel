@@ -1,4 +1,4 @@
-import "./Trending.css"
+import "./Trending.scss"
 import Story from "../Story/Story";
 
 function Trending() {

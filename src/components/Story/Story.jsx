@@ -1,4 +1,4 @@
-import "./Story.css"
+import "./Story.scss"
 
 function Story(props) {
   return (
