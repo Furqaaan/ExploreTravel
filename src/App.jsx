@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import LearnMoreSection from './components/LearnMoreSection/LearnMoreSection';
 
 function App() {

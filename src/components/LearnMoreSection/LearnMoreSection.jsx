@@ -1,4 +1,4 @@
-import "./LearnMoreSection.css";
+import "./LearnMoreSection.scss";
 
 function LearnMoreSection() {
 	return (
