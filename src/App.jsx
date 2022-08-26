@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import Footer from './components/Footer/Footer'
 import FooterSocial from './components/FooterSocial/FooterSocial'
 

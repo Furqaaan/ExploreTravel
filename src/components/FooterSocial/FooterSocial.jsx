@@ -1,4 +1,4 @@
-import "./FooterSocial.css"
+import "./FooterSocial.scss"
 
 function FooterSocial() {
 	return (

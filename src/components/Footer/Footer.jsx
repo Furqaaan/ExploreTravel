@@ -1,4 +1,4 @@
-import "./Footer.css"
+import "./Footer.scss"
 import FooterLinks from "../FooterLinks/FooterLinks";
 
 function Footer() {
