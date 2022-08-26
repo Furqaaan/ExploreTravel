@@ -21,7 +21,7 @@
 			.hero-form-title-content {
 				font-family: 'Inter',sans-serif;
 				font-weight: 600;
-				font-size: 22px;
+				font-size: 20px;
 				color: #202336;
 				line-height: 80px;
 			}
@@ -38,11 +38,11 @@
 			display: grid;
 			grid-template: 1fr 1fr / 1fr 1fr;
 			column-gap: 30px;
-			row-gap: 35px;
+			row-gap: 30px;
 			font-family: 'Inter',sans-serif;
 			font-style: normal;
 			font-weight: 400;
-			font-size: 15px;
+			font-size: 16px;
 
 			.hero-form-selection {
 				appearance: none;
@@ -52,7 +52,7 @@
 				color: #4A4C53;
 				width: 220px;
 				height: 50px;
-				border: 0.8px solid #AFB0B9;
+				border: 1px solid #AFB0B9;
 				border-radius: 6px;
 				padding-left: 30px;
 			}
@@ -73,7 +73,7 @@
 				font-family: 'Mulish',sans-serif;
 				font-style: normal;
 				font-weight: 700;
-				font-size: 17px;
+				font-size: 16px;
 				line-height: 60px;
 			}
 		}
