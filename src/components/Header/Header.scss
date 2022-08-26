@@ -9,12 +9,12 @@
 
 		list-style-type: none;
 		display: flex;
-		column-gap: 35px;
+		column-gap: 30px;
 		align-items: center;
 
 		.header-container-links {
 			font-weight: 500;
-			font-size: 15px;
+			font-size: 16px;
 			color: #B8BECD;
 			font-family: "Inter", sans-serif;
 		}
@@ -24,8 +24,8 @@
 		}
 
 		.secondary-btn .btn-link , .primary-btn .btn-link{
-			width: 132px;
-			height: 44px;
+			width: 130px;
+			height: 40px;
 			text-align: center;
 		}
 
