@@ -1,4 +1,25 @@
 .app {
 	max-width: 1200px;
 	margin: 0 auto;
+
+	.primary-btn .btn-link{
+		background-color: #FB8F1D;
+		color: #FFF;
+		border: 1px solid #FB8F1D;
+		border-radius: 8px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.secondary-btn .btn-link{
+		background-color: #FFF;
+		color: #FB8F1D;
+		border: 1px solid #FB8F1D;
+		border-radius: 8px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
 }
