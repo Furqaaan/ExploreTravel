@@ -1,0 +1,47 @@
+.featured-section {
+
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+
+	.featured-section-header {
+		display: flex;
+		justify-content: space-between;
+
+		.featured-section-header-content {
+			font-family: 'Playfair Display';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 36px;
+			line-height: 50px;
+		}
+
+		.featured-section-header-link {
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 60px;
+			color: #FB8F1D;
+		}
+	}
+
+	.featured-section-gallery {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (max-width: 700px) {
+
+	.featured-section {
+		.featured-section-gallery {
+				flex-direction: column;
+				gap: 15px;
+				justify-content: center;
+				align-items: center;
+			}
+	}
+
+}
